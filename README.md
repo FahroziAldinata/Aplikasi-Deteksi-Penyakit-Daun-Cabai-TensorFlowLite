@@ -92,8 +92,6 @@ Aplikasi memerlukan izin berikut:
 - `android.permission.WRITE_EXTERNAL_STORAGE` — untuk menyimpan foto sementara
 
 ## Catatan
-
-- Model TFLite (`model.tflite`) **tidak disertakan** dalam dokumen ini dan harus ditambahkan secara manual ke folder `assets`.
 - Opsi `noCompress "tflite"` sudah diatur di `build.gradle` agar file model tidak ikut terkompresi saat proses build (penting agar `Interpreter` TFLite dapat membaca file dengan benar via memory-mapping).
 - Proyek ini merupakan bagian dari **Skripsi** (tugas akhir).
 
